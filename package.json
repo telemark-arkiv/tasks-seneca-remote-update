@@ -18,7 +18,8 @@
     "coveralls": "tap --cov --coverage-report=lcov test/**/*.js && cat coverage/lcov.info | coveralls",
     "setup": "npm install && node setup.js",
     "standard-fix": "standard --fix",
-    "start": "node standalone.js"
+    "start": "node service.js",
+    "isolated": "ISOLATED=1 node service.js"
   },
   "keywords": [
     "tasks",
