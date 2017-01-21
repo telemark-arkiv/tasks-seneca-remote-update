@@ -1,7 +1,7 @@
 {
   "name": "tasks-seneca-remote-update",
   "description": "Remote updates of tasks",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "license": "MIT",
   "author": {
     "name": "Geir Gåsodden",
